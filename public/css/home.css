@@ -1,0 +1,371 @@
+/*general*/ /*general*/ /*general*/ /*general*/
+
+.btn {
+    border-radius: 0;
+}
+
+.nav-btn {
+    font-size: large;
+}
+
+.blue-bg {
+    background-color: #00a4cf;
+}
+
+
+@media (max-width: 600px) {
+    .head-h-h{
+        font-weight: 500 !important;
+        font-size: 1.5em !important;
+    }
+}
+
+.head-h-h {
+    font-weight: 650;
+    font-size: 3em;
+    display: block;
+}
+
+
+.light-grey-bg-img {
+    background-image: url(../images/mid-grey-bg.png);
+}
+
+.bg-forms {
+    background-color: #2d3748;
+}
+
+.nav_pad {
+    padding-top: 85px;
+}
+
+.co-55 {
+    color: #00a4cf;
+}
+
+.co-55:hover {
+    color: #00a4cf;
+}
+
+.border-small-line {
+    border-bottom: #000;
+    border-bottom-style: solid;
+    border-width: 3px;
+}
+
+.border-small-dot-new {
+    border-bottom: #000;
+    border-bottom-style: solid;
+    border-width: 9px;
+    transform: translateY(-3px);
+    width: 65px !important;
+}
+
+
+.overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, .9);
+}
+
+.dark-image-bg {
+    background-image: url(../images/dark-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(203, 213, 224, 0.2);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .5;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 20px;
+    border-radius: 40%;
+    background-color: #00a4cf;
+}
+
+/*nav bar*/ /*nav bar*/ /*nav bar*/ /*nav bar*/
+
+.nav_hover {
+    color: white;
+    font-size: 1.1em !important;
+}
+
+.nav_hover:hover {
+    color: #00a4cf;
+    background: black;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dark-pg {
+    background: black;
+}
+
+/*carousel*/ /*carousel*/ /*carousel*/ /*carousel*/
+
+@media (max-width: 900px) {
+    .slidee {
+        height: 50vh !important;
+    }
+}
+
+.slidee {
+    object-fit: cover;
+    height: 80vh;
+    vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+    .slideeee {
+        height: 250px !important;
+    }
+}
+
+.slideeee {
+    object-fit: cover;
+    height: 450px;
+    vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+    .header-card {
+        bottom: 50px!important;
+        width: auto!important;
+    }
+}
+
+.header-card {
+    background: rgba(0, 0, 0, .7);
+    bottom: 140px;
+    border-radius: 15px 15px 0 0;
+    max-width: 350px;
+}
+
+.blue-bg-hover:hover {
+    background: #00a4cf;
+}
+
+/*service*/ /*service*/ /*service*/ /*service*/ /*service*/
+
+.services-bg-dynamic section:nth-child(even) {
+    background-image: url(../images/mid-grey-bg.png);
+}
+
+.line {
+    width: 33%;
+}
+
+/*why*/ /*why*/ /*why*/ /*why*/ /*why*/ /*why*/ /*why*/
+
+.border-small-line-white {
+    border-bottom: #fff;
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+.border-small-dot-new-white {
+    border-bottom: #fff;
+    border-bottom-style: solid;
+    border-width: 7px;
+    transform: translateY(-3px);
+    width: 65px !important;
+}
+
+.why-content {
+    opacity: .6;
+}
+
+.why_h_h {
+    font-size: 1.7rem;
+}
+
+/*AMENITIES*/ /*AMENITIES*/ /*AMENITIES*/ /*AMENITIES*/ /*AMENITIES*/
+
+.amenities-small-line {
+
+    border-radius: 2px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    width: 40px;
+}
+
+.amenities-big-line {
+
+    border-radius: 2px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    width: 80px;
+}
+
+/*FOOTER*/ /*FOOTER*/ /*FOOTER*/ /*FOOTER*/
+
+.footer_hover {
+    color: white;
+    font-size: 1.1rem !important;
+}
+
+.footer_hover:hover {
+    color: #00a4cf;
+}
+
+.media_hover {
+    color: white;
+    font-size: 1rem !important;
+}
+
+.media_hover:hover {
+    color: #00a4cf;
+    cursor: pointer;
+}
+
+/*ABOUT US*/ /*ABOUT US*/ /*ABOUT US*/ /*ABOUT US*/
+
+.about-us-bg {
+    background-image: url(../images/about-us.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.about_us_h-h {
+    display: block;
+    border-style:solid;
+    border-width: 10px;
+}
+
+.about_us_p-p {
+    font-size:xx-small;
+    display: block;
+    border-style:solid;
+    border-width: 3px;
+}
+
+/*LOCATIONS*/ /*LOCATIONS*/ /*LOCATIONS*/ /*LOCATIONS*/ /*LOCATIONS*/
+
+.location_image {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+/*INQUIRY*/ /*INQUIRY*/ /*INQUIRY*/ /*INQUIRY*/ /*INQUIRY*/
+
+.contact-us-bg {
+    background-image: url(../images/contact-us-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.textarea {
+    background-color: #fffFFF00 !important;
+    color: #fff;
+    font-size: 1em !important;
+}
+
+.image-input label {
+    display: block;
+    color: #fff;
+    background: #000;
+    padding: 0.3rem 0.6rem;
+    font-size: 115%;
+    cursor: pointer;
+}
+
+/*careers*/ /*careers*/ /*careers*/ /*careers*/
+
+.careers-bg {
+    background-image: url(../images/about-us.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+
+.career {
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.career-bg-dynamic div:nth-child(even) {
+    background-color: rgb(165,177,190,.2);!important;
+}
+
+/*FAQS*/ /*FAQS*/ /*FAQS*/ /*FAQS*/ /*FAQS*/
+
+
+.faq-active {
+    color: #0b0e14 !important;
+    border-bottom-style: solid;
+    border-bottom-color: #2d3748;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/*TESTIMONIALS*/ /*TESTIMONIALS*/ /*TESTIMONIALS*/ /*TESTIMONIALS*/
+
+.home-carousel-img {
+    width: 73px !important;
+    height: 73px !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+}
+
+.radius-16 {
+    border-radius: 16px;
+}
+
+.min-h-350 {
+    height: 450px;
+}
+
+.shadow-custom {
+    box-shadow: 0 6px 16px #0025bb14;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -10px;
+    display: block !important;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute !important;
+    top: 40%;
+    right: -10px;
+    display: block !important;
+    float: right;
+}
+
+.trans-30 {
+    transform: translateY(-30px);
+}
